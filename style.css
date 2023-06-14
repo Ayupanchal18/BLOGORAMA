@@ -1,0 +1,520 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(253, 255, 254);
+    background-color: orangered;
+    text-align: center;
+    font-size: large 20%;
+}
+
+p {
+    text-align: center;
+    color: rgb(252, 251, 251);
+    background-color: black;
+}
+
+.batan {
+    color: rgb(252, 251, 250);
+    background-color: rgb(237, 234, 234);
+}
+
+.a {
+    color: rgb(10, 4, 1);
+}
+
+.batan {
+    background-color: #eee;
+    border-style: solid;
+    color: black;
+    font-size: 100%;
+}
+
+.main-container {
+    background-color: orangered;
+    height: 300px;
+    width: 100%;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 50px;
+    background-position-y: 50px;
+}
+
+.sec-container {
+    height: 900px;
+    width: 75%;
+    background-color: #eee;
+    background-image: url('computer.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -915px;
+    font-size: 400%;
+}
+
+.list-2 {
+    margin-left: 1100px;
+    margin-top: 150px;
+    list-style-type: disc;
+}
+
+.discription {
+    text-align: right;
+}
+
+.t-container {
+    width: 24%;
+    height: 450px;
+    background-color: #eee;
+    margin-top: 50px;
+    background-image: url(ram.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 105px;
+    background-position-y: 60px;
+}
+
+.discription {
+    text-align: right;
+    text-align: initial;
+    color: black;
+    background-color: transparent;
+}
+
+.middle-text {
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 2px;
+    font-size: 135%;
+    background-image: linear-gradient(to right, white, black, white);
+}
+
+.First-Of {
+    color: black;
+    font-size: 341%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    background-color: transparent;
+    top: 100px;
+    left: -580px;
+}
+
+.hello {
+    color: black;
+    text-decoration: underline;
+    position: relative;
+    top: 150px;
+}
+
+.specs {
+    color: black;
+    background-color: transparent;
+    margin-left: 55%;
+    font-size: 300%;
+    margin-top: 17%;
+    position: relative;
+    top: -80px;
+}
+
+.f-container {
+
+    width: 20%;
+    height: 450px;
+    background-color: #eee;
+    margin-top: 50px;
+    background-image: url(mouse.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position-x: 105px;
+    background-position-y: 60px;
+    position: relative;
+    left: 420px;
+    top: -500px;
+    margin-left: 108px;
+}
+
+.g-container {
+
+    width: 20%;
+    height: 450px;
+    background-color: #eee;
+    margin-top: 50px;
+    background-image: url('printer.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 105px;
+    background-position-y: 60px;
+    position: relative;
+    left: 840px;
+    top: -1000px;
+    margin-left: 108px;
+}
+
+.h-container {
+
+    width: 20%;
+    height: 450px;
+    background-color: #eee;
+    margin-top: 50px;
+    background-image: url('kb.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 105px;
+    background-position-y: 60px;
+    position: relative;
+    left: 1260px;
+    top: -1500px;
+    margin-left: 108px;
+}
+
+.i-container {
+    width: 20%;
+    height: 450px;
+    background-color: #eee;
+    margin-top: 50px;
+    background-image: url('hdd.png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-x: 80px;
+    background-position-y: 60px;
+    position: relative;
+    left: 1700px;
+    top: -2000px;
+    margin-left: 108px;
+}
+
+.ram-text {
+    color: black;
+    background-color: transparent;
+    position: relative;
+    top: 350px;
+    font-size: 150%;
+}
+
+.mouse-text {
+    color: black;
+    background-color: transparent;
+    position: relative;
+    top: 350px;
+    font-size: 150%;
+    text-decoration: nono;
+
+}
+
+.printer-text {
+    color: black;
+    background-color: transparent;
+    position: relative;
+    top: 350px;
+    font-size: 150%;
+}
+
+.hdd-text {
+    color: black;
+    background-color: transparent;
+    position: relative;
+    top: 350px;
+    font-size: 150%;
+}
+
+.kb-text {
+    color: black;
+    background-color: transparent;
+    position: relative;
+    top: 350px;
+    font-size: 150%;
+}
+
+.k-container {
+    height: 200px;
+    width: 200px;
+    background-color: #eee;
+    margin-left: 83.5%;
+    margin-bottom: 30px;
+}
+
+.table {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    position: absolute;
+    top: 2220px;
+    font-size: 225%;
+}
+
+th {
+    border-style: solid;
+    background-color: rgba(41, 120, 200, 0.81);
+    padding: 5px;
+
+}
+
+th:hover {
+    color: white;
+    background-color: black;
+    border-style: solid;
+}
+
+td {
+    border-style: solid;
+    background-color: #eee;
+    padding: 5px;
+
+}
+
+td:hover {
+    color: white;
+    background-color: black;
+}
+
+.top-link {
+    color: black;
+    word-spacing: 1035px;
+    position: relative;
+    top: 20px;
+}
+
+.t1 {
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+.t1:hover {
+    background-color: rgb(255, 254, 254);
+    padding: 2px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+}
+
+.t2 {
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+.t2:hover {
+    background-color: rgb(255, 254, 254);
+    padding: 2px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+}
+
+.t3 {
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+
+.t3:hover {
+    background-color: rgb(255, 254, 254);
+    padding: 2px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+}
+
+.discription {
+    height: 900px;
+    width: 23%;
+    background-color: #eee;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 7px;
+    margin-left: 75.5%;
+    font-size: 200%;
+    position: relative;
+    top: 16px;
+    overflow: auto;
+    text-align: center;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+    top: 10px;
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .top-link a {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+.nav-bar a:hover {
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 0.1px;
+
+}
+
+.nav-bar {
+    word-spacing: 500px;
+}
+
+.parent {
+    background-color: #eee;
+    position: absolute;
+    top: 1800px;
+    display: flex;
+    width: 100%;
+}
+
+.box6 {
+    background-color: #eee;
+    padding: 13px;
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 399px;
+    border-style: solid;
+    height: 350px;
+    background-image: url('mb.png');
+    background-repeat: no-repeat
+}
+
+.box7 {
+    background-color: #eee;
+    padding: 13px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 399px;
+    border-style: solid;
+    height: 350px;
+    text-align: center;
+}
+
+.box8 {
+    background-color: #eee;
+    padding: 13px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 399px;
+    border-style: solid;
+    height: 350px;
+    text-align: center;
+}
+
+.box9 {
+    background-color: #eee;
+    padding: 13px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 399px;
+    border-style: solid;
+    height: 350px;
+    text-align: center;
+}
+
+.box10 {
+    background-color: #eee;
+    padding: 13px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 2px;
+    width: 399px;
+    border-style: solid;
+    height: 350px;
+    text-align: center;
+
+
+}
+
+.box6 {
+    background-image: url(monitor.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 50px;
+    background-position-y: 70px;
+    text-align: center;
+}
+
+.box7 {
+    background-image: url(mb.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 50px;
+    background-position-y: 50px;
+}
+
+.box8 {
+    background-image: url(ps.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 50px;
+    background-position-y: 50px;
+}
+
+.box9 {
+    background-image: url(cpu.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 95px;
+    background-position-y: 50px;
+
+}
+
+.box10 {
+    background-image: url(graphic.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 50px;
+    background-position-y: 20px;
+
+}
+
+.graphiccard-text {
+    position: relative;
+    top: 290px;
+}
+
+.monitortext {
+    position: relative;
+    top: 290px;
+}
+
+.motherboardtext {
+    position: relative;
+    top: 290px;
+}
+
+.powersupplytext {
+    position: relative;
+    top: 290px;
+}
+
+.CPUtext {
+    position: relative;
+    top: 290px;
+}
